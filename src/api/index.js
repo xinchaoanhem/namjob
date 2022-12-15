@@ -2,7 +2,7 @@ import axios from 'axios'
 import store from "../store";
 import router from "../router";
 
-const baseUrl = 'https://namhihi.000webhostapp.com';
+const baseUrl = 'http://namjob.epizy.com';
 
 export const apiAxios = axios.create({
     baseURL:`${baseUrl}/api/`,

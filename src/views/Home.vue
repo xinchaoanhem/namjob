@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="header-board">
-      <h2>CÁC KHÔNG GIAN LÀM VIỆC CỦA BẠNmmmmmmmmm</h2>
+      <h2>CÁC KHÔNG GIAN LÀM VIỆC CỦA BẠN</h2>
       <div class="header-board-action">
         <h3>Namjob Không gian làm việc</h3>
         <el-button @click="dialogFormVisible = true" type="info" plain>Tạo mới</el-button>
@@ -41,7 +41,7 @@ export default {
   name: "MyHome",
   data () {
     return {
-      baseUrl: 'http://127.0.0.1:8000',
+      baseUrl: 'http://namjob.epizy.com',
       dialogFormVisible: false,
       boards: [],
       form: {
